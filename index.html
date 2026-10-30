@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank App - Income & Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="header">
+    <h1> My Bank App</h1>
+    <p>Track your income and expenses</p>
+  </div>
+
+  
+  <div class="balance">
+    <h2>Current Balance</h2>
+    <p id="balance-amount">$0.00</p>
+  </div>
+
+ 
+  <div class="summary">
+    <div class="income">
+      <h3>Income</h3>
+      <p id="income-amount">$500</p>
+    </div>
+    <div class="expense">
+      <h3>Expense</h3>
+      <p id="expense-amount">$100</p>
+    </div>
+  </div>
+
+
+  <div class="transactions">
+    <h2>Transactions</h2>
+    <div class="transaction-list">
+   
+      <div class="transaction income-item">Salary +$500</div>
+      <div class="transaction expense-item">Groceries -$50</div>
+    </div>
+  </div>
+
+
+  <div class="form-container">
+    <h2>Add Transaction</h2>
+    <form>
+      <input type="text" placeholder="Description" required>
+      <input type="number" placeholder="Amount" required>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+
+</body>
+</html>

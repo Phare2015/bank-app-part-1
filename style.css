@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.balance p {
+  font-size: 2em;
+  color: #333;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.income, .expense {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.income h3 {
+  color: green;
+}
+
+.expense h3 {
+  color: red;
+}
+
+.transactions {
+  margin: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.transaction {
+  padding: 10px;
+  margin: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.income-item {
+  color: green;
+}
+
+.expense-item {
+  color: red;
+}
+
+.form-container {
+  margin: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
